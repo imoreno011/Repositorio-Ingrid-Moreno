@@ -1,0 +1,50 @@
+body{
+ font-family: Arial, sans-serif;
+  text-align:center;
+margin: 20px;
+}
+
+button{
+ margin:10px; 
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: purple;
+}
+
+button:hover{
+  background:pink;
+}
+
+.contenedor{
+  display:flex;
+  justify-content:center;
+  margin:20px 0px;
+  gap:10px;
+}
+
+.caja{
+  width:80px;
+  height:80px;
+  background:#DCC2FF;
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  border:5px solid #4B0D96;
+    border-radius:10px;
+}
+/*diseño para ajustar las imagenes*/
+#galleryContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  
+}
+#galleryContainer img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
